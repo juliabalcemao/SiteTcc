@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+	<title>EcoEquidade - Fome</title>
+	
+	<style>
+	body{
+		font-family: "Arial";
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		text-align: center;
+		}
+		
+		.nav{
+		display: flex;
+		justify-content: space-between;
+		background-color: #021024;
+		color: #ffff;
+		padding: 0 1rem;
+		font-family: Calibri;
+		}
+		
+		.logo a{
+		color: #d2b3db;
+		text-decoration: none;
+		}
+		
+		.logo span{
+		color: #d2b3db;
+		}
+		
+	.nav{
+		display: flex;
+		justify-content: space-between;
+		background-color: #33a1ff;
+		color: #ffff;
+		padding: 15px 60px;
+		font-family: "Arial";
+		align-items: center;
+		font-weight: bold;
+		}
+		
+		.logo a{
+		color: #d2b3db;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: 700;
+		}
+		
+		.logo span{
+		color: #d2b3db;
+		}
+		
+	nav{
+    background-color: #021024;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Arial";
+}
+
+
+    nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+
+    nav li{
+   margin: 0 20px; 
+}
+
+    nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    nav li a:hover{
+    background-color: #33a1ff;
+    color: #021024;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border-radius:5px;
+}
+
+		
+}
+
+    .card{
+	width: 400px;
+	background-color: #fff;
+	border-radius: 8px;
+	overflow: hidden:
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	font-family: "Arial";
+	}
+	
+	.card img{
+	width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+	.card-conteudo h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #000;
+	}
+	
+	.card-conteudo p{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	}
+	
+	.card-conteudo .botao{
+	display: inline-block;
+	background-color: #c63b1e;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: 0.3 ease;
+	}
+	
+	.card-conteudo .botao:hover{
+	background-color: #a52d15;
+	}
+	
+	.card-conteudo a{
+	color: #0055AA;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 2px solid #0055AA;
+	border-radius: 5px;
+	transition: all 0.3 ease;
+	}
+	
+	.meu-hr{
+	border: none;
+	height: 3px;
+	background-color: #0055AA;
+	margin: 20px 0;
+	}
+
+    .card-link{
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 400px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.card-link h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #222;
+	}
+	
+	.card-link p{
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #333;
+	line-height: 1.5;
+	}
+	
+	.btn-link{
+	display: inline-block;
+	background-color: #052659;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+	}
+	
+	.btn-link:hover{
+	background-color: #c5441d;
+	}
+	
+	.conteudo{
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	line-height: 1.6;
+	font-size: 18px;
+	text-align: justify;
+	}
+	
+	.conteudo h1{
+	margin-bottom: 20px;
+	text-align: center;
+	color: #052659;
+	}
+	
+	.conteudo p{
+	margin-bottom: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	text-ident: 300px;
+	font-family: Arial;
+	font-size: 20px;
+	}
+	
+	.footer{
+background-color: #021024;
+color: #fff;
+padding: 40px 20px;
+text-align: center;
+}
+
+.footer-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.footer-section{
+margin: 20px;
+min-width: 150px;
+}
+
+.footer-section h3{
+margin-bottom: 15px;
+}
+
+.footer-section p{
+font-size: 20px;
+color: white;
+}
+
+.footer-section a{
+color: #fff;
+text-decoration: none;
+}
+
+.footer-section a:hover{
+color: #f0a500;
+}
+
+.footer-copy{
+margin-top: 30px;
+font-size: 14px;
+color: #aaa;
+}
+
+.tempo{
+display: inline-block;
+background-color: #f0f0f0;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 14px;
+color: #333;
+font-weight: 500;
+margin-bottom: 20px;
+font-family: Arial;
+}
+
+.ptempo{
+text-align: center;
+font-family: Arial;
+}
+
+.meu-hr{
+border: none;
+height: 4px;
+background: linear-gradient(to right, #0d1b2a, #1b263b, #415a77);
+margin: 40px 0;
+}
+	</style>
+	
+	<body>
+	
+	<nav>
+
+ <div class="logo">
+            <a href="site1.html">
+            <img src="eco-friendly.png" width="30%" height="30%">
+            </a>
+        </div>
+		
+        <ul>
+
+            <li> <a href="inequidade.html"> Iniquidade </a> </li>
+
+            <li> <a href="fragilidade.html"> Fragilidade</a> </li>
+
+            <li> <a href="fome.html"> Fome</a> </li>
+
+            <li> <a href="sistema.html"> Sistema </a> </li>
+
+            <li> <a href="injustica.html"> Injustiça Racial </a> </li>
+			
+			<li> <a href="mitigacao.html"> Mitigação </a> </li>
+			
+			<li> <a href="inovacao.html"> Inovação </a> </li>
+			
+			<li><a href="sitelinks.html">Links Úteis</a></li>
+
+
+        </ul>
+
+</nav>
+
+
+<div class="conteudo">
+
+  <h1>Fome</h1>
+  
+  <div class="ptempo">
+  <p class="tempo">&#x23F1; Tempo estimado de leitura: 4min</p>
+  </div>
+  
+  <hr class="meu-hr">
+
+    <p>As mudanças climáticas configuram-se como uma das maiores ameaças à segurança alimentar global, afetando de maneira significativa especialmente os países em desenvolvimento, como o Brasil. Alterações climáticas como aumento da temperatura média, chuvas intensas e irregulares, secas prolongadas e desastres naturais frequentes têm impactos diretos sobre a produção agrícola, prejudicando safras, elevando os preços dos alimentos e limitando o acesso da população mais vulnerável a uma alimentação adequada e nutritiva. Esses efeitos são sentidos de maneira mais intensa por comunidades que já enfrentam condições socioeconômicas precárias, ampliando desigualdades e fragilidades sociais.</p>
+	<p>A segurança alimentar é definida como a garantia de que todas as pessoas tenham acesso regular a alimentos básicos, de qualidade e em quantidade suficiente para um desenvolvimento saudável e sustentável. Nesse contexto, as mudanças climáticas agravam não apenas a disponibilidade de alimentos, mas também a capacidade econômica das famílias para adquiri-los. O aumento do desemprego, da pobreza e da insegurança habitacional, somado à elevação constante do preço dos alimentos, cria um ciclo de vulnerabilidade que afeta diretamente o bem-estar e a saúde das populações mais expostas.</p>
+	<p>O sistema global de produção de alimentos é complexo e envolve diversos setores interdependentes, como agricultura, pecuária, pesca, transporte, armazenamento, embalagem e comercialização. Cada etapa é essencial para que os alimentos distribuídos cheguem de maneira segura e adequada à população. Entretanto, as alterações climáticas comprometem cada uma dessas etapas. Por exemplo, secas prolongadas reduzem a produtividade agrícola, enchentes e tempestades danificam plantações e infraestrutura de transporte, enquanto ondas de calor afetam a qualidade e a conservação dos produtos, levando à escassez e à valorização dos alimentos no mercado.</p>
+	<p>Além disso, o impacto das mudanças climáticas sobre a agricultura tem efeitos diretos na economia. A elevação nos preços dos alimentos atinge desproporcionalmente as famílias de baixa renda, que dedicam grande parte de sua renda à compra de itens básicos. Em muitos casos, essa situação leva à adoção de dietas menos saudáveis, com maior consumo de alimentos ultraprocessados, que são mais acessíveis, mas nutricionalmente pobres. Cultivos sensíveis, como trigo, milho e arroz, sofrem prejuízos frequentes, tornando a produção alimentar mais instável e aumentando os riscos de desnutrição, deficiências nutricionais e problemas de saúde associados.</p>
+	<p>Os eventos climáticos extremos, cada vez mais frequentes e intensos, também afetam o planejamento e a logística de distribuição de alimentos. Fortes chuvas podem inundar estradas e destruir centros de armazenamento, enquanto secas prolongadas limitam a disponibilidade de água para irrigação e produção animal. Esses problemas, somados à vulnerabilidade socioeconômica, expõem comunidades inteiras à insegurança alimentar e aumentam a pressão sobre políticas públicas e sistemas de apoio social.</p>
+	<p>Diante desse cenário, é urgente que medidas de mitigação e adaptação sejam implementadas em múltiplos níveis. No âmbito agrícola, práticas sustentáveis e resilientes ao clima, como diversificação de cultivos, irrigação eficiente, sistemas agroflorestais e uso de tecnologias digitais para monitoramento climático, podem contribuir para reduzir os impactos. Paralelamente, políticas públicas devem priorizar a proteção das populações mais vulneráveis, garantindo acesso a alimentos, infraestrutura adequada, assistência social e estratégias de redução de riscos.</p>
+	<p>Em suma, a segurança alimentar no contexto das mudanças climáticas não é apenas uma questão de produção, mas envolve toda a cadeia de abastecimento, distribuição e consumo, além de fatores socioeconômicos e ambientais interligados. O aumento da frequência de eventos extremos e a crescente variabilidade climática tornam evidente que o enfrentamento desse desafio exige ação imediata e integrada, combinando inovação tecnológica, políticas públicas inclusivas e estratégias de resiliência socioambiental para proteger a população e garantir um futuro mais sustentável e seguro.</p>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+	    <div class="footer-section">
+		    <h3>Sobre:</h3>
+			<p>Este site é dedicado para todos os que se importam com causas sociais e com a futura geração.</p>
+		</div>
+	</div>
+	
+	<div class="footer-section">
+	    <h3>Redes Sociais</h3>
+		<img src="instagram.png" height="2%" width="2%"><a href="https://www.instagram.com/ecoequidade/" target="_blank">Instagram</a>
+		<img src="twitter.png" height="2%" width="2%"><a href="https://x.com/ecoequidad15316" target="_blank">Twitter</a>
+	</div>
+	
+	<h3>Entre em contato:</h3>
+	<p class="footer-copy">ecoequidade@gmail.com</p>
+	<p class="footer-copy">&copy; 2025 EcoEquidade.</p>
+</footer>
+
+	</body> 
+	
+	</html>

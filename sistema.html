@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+	<title>EcoEquidade - Sistema</title>
+	
+	<style>
+	body{
+		font-family: "Arial";
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		text-align: center;
+		}
+		
+		.nav{
+		display: flex;
+		justify-content: space-between;
+		background-color: #021024;
+		color: #ffff;
+		padding: 0 1rem;
+		font-family: Calibri;
+		}
+		
+		.logo a{
+		color: #d2b3db;
+		text-decoration: none;
+		}
+		
+		.logo span{
+		color: #d2b3db;
+		}
+		
+	.nav{
+		display: flex;
+		justify-content: space-between;
+		background-color: #33a1ff;
+		color: #ffff;
+		padding: 15px 60px;
+		font-family: "Arial";
+		align-items: center;
+		font-weight: bold;
+		}
+		
+		.logo a{
+		color: #d2b3db;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: 700;
+		}
+		
+		.logo span{
+		color: #d2b3db;
+		}
+		
+	nav{
+    background-color: #021024;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Arial";
+}
+
+
+    nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+
+    nav li{
+   margin: 0 20px; 
+}
+
+    nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    nav li a:hover{
+    background-color: #33a1ff;
+    color: #021024;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border-radius:5px;
+}
+
+		
+}
+
+    .card{
+	width: 400px;
+	background-color: #fff;
+	border-radius: 8px;
+	overflow: hidden:
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	font-family: "Arial";
+	}
+	
+	.card img{
+	width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+	.card-conteudo h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #000;
+	}
+	
+	.card-conteudo p{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	}
+	
+	.card-conteudo .botao{
+	display: inline-block;
+	background-color: #c63b1e;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: 0.3 ease;
+	}
+	
+	.card-conteudo .botao:hover{
+	background-color: #a52d15;
+	}
+	
+	.card-conteudo a{
+	color: #0055AA;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 2px solid #0055AA;
+	border-radius: 5px;
+	transition: all 0.3 ease;
+	}
+	
+	.meu-hr{
+	border: none;
+	height: 3px;
+	background-color: #0055AA;
+	margin: 20px 0;
+	}
+
+    .card-link{
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 400px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.card-link h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #222;
+	}
+	
+	.card-link p{
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #333;
+	line-height: 1.5;
+	}
+	
+	.btn-link{
+	display: inline-block;
+	background-color: #052659;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+	}
+	
+	.btn-link:hover{
+	background-color: #c5441d;
+	}
+	
+	.conteudo{
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	line-height: 1.6;
+	font-size: 18px;
+	text-align: justify;
+	}
+	
+	.conteudo h1{
+	margin-bottom: 20px;
+	text-align: center;
+	color: #052659;
+	}
+	
+	.conteudo p{
+	margin-bottom: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	text-ident: 300px;
+	font-family: Arial;
+	font-size: 20px;
+	}
+	
+	.footer{
+background-color: #021024;
+color: #fff;
+padding: 40px 20px;
+text-align: center;
+}
+
+.footer-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.footer-section{
+margin: 20px;
+min-width: 150px;
+}
+
+.footer-section h3{
+margin-bottom: 15px;
+}
+
+.footer-section p{
+font-size: 20px;
+color: white;
+}
+
+.footer-section a{
+color: #fff;
+text-decoration: none;
+}
+
+.footer-section a:hover{
+color: #f0a500;
+}
+
+.footer-copy{
+margin-top: 30px;
+font-size: 14px;
+color: #aaa;
+}
+
+.tempo{
+display: inline-block;
+background-color: #f0f0f0;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 14px;
+color: #333;
+font-weight: 500;
+margin-bottom: 20px;
+font-family: Arial;
+}
+
+.ptempo{
+text-align: center;
+font-family: Arial;
+}
+
+.meu-hr{
+border: none;
+height: 4px;
+background: linear-gradient(to right, #0d1b2a, #1b263b, #415a77);
+margin: 40px 0;
+}
+	</style>
+	
+	<body>
+	
+	<nav>
+
+ <div class="logo">
+            <a href="site1.html">
+            <img src="eco-friendly.png" width="30%" height="30%">
+            </a>
+        </div>
+		
+        <ul>
+
+           <li> <a href="inequidade.html"> Iniquidade </a> </li>
+
+            <li> <a href="fragilidade.html"> Fragilidade</a> </li>
+
+            <li> <a href="fome.html"> Fome</a> </li>
+
+            <li> <a href="sistema.html"> Sistema </a> </li>
+
+            <li> <a href="injustica.html"> Injustiça Racial </a> </li>
+			
+			<li> <a href="mitigacao.html"> Mitigação </a> </li>
+			
+			<li> <a href="inovacao.html"> Inovação </a> </li>
+			
+			<li><a href="sitelinks.html">Links Úteis</a></li>
+
+
+        </ul>
+
+</nav>
+
+
+<div class="conteudo">
+
+  <h1>Sistema</h1>
+  
+  
+  <div class="ptempo">
+  <p class="tempo">&#x23F1; Tempo estimado de leitura: 4min e 45s</p>
+  </div>
+  
+  <hr class="meu-hr">
+
+    <p>O capitalismo se caracteriza por uma estrutura social marcada por profundas desigualdades, dividindo a sociedade entre aqueles que possuem os meios de produção e aqueles que dependem exclusivamente da venda de sua força de trabalho para sobreviver. A burguesia concentra terras, fábricas, capitais e outros recursos estratégicos, enquanto o proletariado, representando a maioria da população, enfrenta vulnerabilidade constante e dependência econômica. Essa dinâmica não apenas consolida a desigualdade social, mas também influencia de forma determinante as relações políticas, econômicas e ambientais, pois o sistema capitalista prioriza a acumulação contínua de riqueza, frequentemente sem considerar os impactos negativos sobre a sociedade e o meio ambiente.</p>
+	<p>Nesse contexto, o capitalismo exerce papel central no agravamento das mudanças climáticas. A exploração intensiva de recursos naturais, a produção em massa e o consumo desenfreado aumentam significativamente as emissões de gases de efeito estufa, promovem o desmatamento e intensificam a poluição ambiental. Atividades de extrativismo e monoculturas, além de concentrar recursos naturais nas mãos de poucos, provocam perdas ambientais significativas, alterando ecossistemas e reduzindo a capacidade de resiliência do planeta. Essas práticas, ao priorizarem o lucro imediato, operam sem responsabilidade socioambiental, desconsiderando os limites ecológicos e ampliando o desequilíbrio entre crescimento econômico e sustentabilidade.</p>
+	<p>Historicamente, o desenvolvimento capitalista esteve intimamente ligado ao colonialismo e ao uso intensivo de combustíveis fósseis. Países ocidentais, como os Estados Unidos, aproveitaram o colonialismo para expandir sua base econômica e, simultaneamente, foram grandes emissores de dióxido de carbono desde o século XVIII. Já países em crescimento industrial mais recente, como China e Índia, apresentam emissões acumuladas menores, embora estejam em rápida expansão econômica e industrial. A Revolução Industrial, iniciada no século XVIII, marcou um ponto de inflexão, com avanços significativos na produção, transporte e consumo, mas também assinalou o início da intensa queima de combustíveis fósseis, principal motor do aquecimento global.</p>
+	<p>O impacto do capitalismo sobre as mudanças climáticas não se restringe apenas à dimensão ambiental. Ele está ligado a desigualdades globais e sociais, uma vez que os efeitos das alterações climáticas atingem de maneira desproporcional populações vulneráveis. Comunidades em países em desenvolvimento enfrentam condições adversas devido à concentração de riqueza, à falta de infraestrutura adequada e à limitação de acesso a recursos essenciais, como água potável, alimentação segura e serviços de saúde. Esses fatores tornam essas populações mais suscetíveis a desastres naturais, perda de safras e crises econômicas decorrentes da escassez de recursos, criando um ciclo de vulnerabilidade que se perpetua ao longo do tempo.</p>
+	<p>Além disso, o capitalismo molda o consumo global de alimentos e outros recursos essenciais, intensificando pressões sobre ecossistemas e biomas críticos. A produção agrícola, a pecuária, a pesca e a cadeia logística relacionada são impactadas por eventos climáticos extremos, como secas, inundações e tempestades, que comprometem a disponibilidade de alimentos e elevam seus preços. Esse cenário contribui para o aumento da insegurança alimentar, especialmente entre os mais pobres, levando a desnutrição, dietas desequilibradas e impactos negativos na saúde pública.</p>
+	<p>Compreender a relação entre capitalismo e mudanças climáticas é fundamental para identificar estratégias que possam equilibrar crescimento econômico e preservação ambiental. A busca por alternativas mais sustentáveis exige repensar modelos de produção e consumo, priorizar tecnologias limpas, incentivar práticas agrícolas resilientes, promover a justiça social e implementar políticas públicas que considerem limites ecológicos. Somente por meio de um planejamento integrado e responsável será possível reduzir desigualdades, proteger os recursos naturais e garantir um futuro sustentável e equilibrado para as próximas gerações.</p>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+	    <div class="footer-section">
+		    <h3>Sobre:</h3>
+			<p>Este site é dedicado para todos os que se importam com causas sociais e com a futura geração.</p>
+		</div>
+	</div>
+	
+	<div class="footer-section">
+	    <h3>Redes Sociais</h3>
+		<img src="instagram.png" height="2%" width="2%"><a href="https://www.instagram.com/ecoequidade/" target="_blank">Instagram</a>
+		<img src="twitter.png" height="2%" width="2%"><a href="https://x.com/ecoequidad15316" target="_blank">Twitter</a>
+	</div>
+	
+	<h3>Entre em contato:</h3>
+	<p class="footer-copy">ecoequidade@gmail.com</p>
+	<p class="footer-copy">&copy; 2025 EcoEquidade.</p>
+</footer>
+
+	</body> 
+	
+	</html>

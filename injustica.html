@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+	<title>EcoEquidade - Injustiça</title>
+	
+	<style>
+	body{
+		font-family: "Arial";
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		text-align: center;
+		}
+		
+		.nav{
+		display: flex;
+		justify-content: space-between;
+		background-color: #021024;
+		color: #ffff;
+		padding: 0 1rem;
+		font-family: Calibri;
+		}
+		
+		.logo a{
+		color: #d2b3db;
+		text-decoration: none;
+		}
+		
+		.logo span{
+		color: #d2b3db;
+		}
+		
+	.nav{
+		display: flex;
+		justify-content: space-between;
+		background-color: #33a1ff;
+		color: #ffff;
+		padding: 15px 60px;
+		font-family: "Arial";
+		align-items: center;
+		font-weight: bold;
+		}
+		
+		.logo a{
+		color: #d2b3db;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: 700;
+		}
+		
+		.logo span{
+		color: #d2b3db;
+		}
+		
+	nav{
+    background-color: #021024;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Arial";
+}
+
+
+    nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+
+    nav li{
+   margin: 0 20px; 
+}
+
+    nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    nav li a:hover{
+    background-color: #33a1ff;
+    color: #021024;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+		
+}
+
+    .card{
+	width: 400px;
+	background-color: #fff;
+	border-radius: 8px;
+	overflow: hidden:
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	font-family: "Arial";
+	}
+	
+	.card img{
+	width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+	.card-conteudo h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #000;
+	}
+	
+	.card-conteudo p{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	}
+	
+	.card-conteudo .botao{
+	display: inline-block;
+	background-color: #c63b1e;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: 0.3 ease;
+	}
+	
+	.card-conteudo .botao:hover{
+	background-color: #a52d15;
+	}
+	
+	.card-conteudo a{
+	color: #0055AA;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 2px solid #0055AA;
+	border-radius: 5px;
+	transition: all 0.3 ease;
+	}
+	
+	.meu-hr{
+	border: none;
+	height: 3px;
+	background-color: #0055AA;
+	margin: 20px 0;
+	}
+
+    .card-link{
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 400px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.card-link h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #222;
+	}
+	
+	.card-link p{
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #333;
+	line-height: 1.5;
+	}
+	
+	.btn-link{
+	display: inline-block;
+	background-color: #052659;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+	}
+	
+	.btn-link:hover{
+	background-color: #c5441d;
+	}
+	
+	.conteudo{
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	line-height: 1.6;
+	font-size: 18px;
+	text-align: justify;
+	}
+	
+	.conteudo h1{
+	margin-bottom: 20px;
+	text-align: center;
+	color: #052659;
+	}
+	
+	.conteudo p{
+	margin-bottom: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	text-ident: 300px;
+	font-family: Arial;
+	font-size: 20px;
+	}
+	
+	.footer{
+background-color: #021024;
+color: #fff;
+padding: 40px 20px;
+text-align: center;
+}
+
+.footer-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.footer-section{
+margin: 20px;
+min-width: 150px;
+}
+
+.footer-section h3{
+margin-bottom: 15px;
+}
+
+.footer-section p{
+font-size: 20px;
+color: white;
+}
+
+.footer-section a{
+color: #fff;
+text-decoration: none;
+}
+
+.footer-section a:hover{
+color: #f0a500;
+}
+
+.footer-copy{
+margin-top: 30px;
+font-size: 14px;
+color: #aaa;
+}
+
+.tempo{
+display: inline-block;
+background-color: #f0f0f0;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 14px;
+color: #333;
+font-weight: 500;
+margin-bottom: 20px;
+font-family: Arial;
+}
+
+.ptempo{
+text-align: center;
+font-family: Arial;
+}
+
+.meu-hr{
+border: none;
+height: 4px;
+background: linear-gradient(to right, #0d1b2a, #1b263b, #415a77);
+margin: 40px 0;
+}
+	</style>
+	
+	<body>
+	
+	<nav>
+
+ <div class="logo">
+            <a href="site1.html">
+            <img src="eco-friendly.png" width="30%" height="30%">
+            </a>
+        </div>
+		
+        <ul>
+
+            <li> <a href="inequidade.html"> Iniquidade </a> </li>
+
+            <li> <a href="fragilidade.html"> Fragilidade</a> </li>
+
+            <li> <a href="fome.html"> Fome</a> </li>
+
+            <li> <a href="sistema.html"> Sistema </a> </li>
+
+            <li> <a href="injustica.html"> Injustiça Racial </a> </li>
+			
+			<li> <a href="mitigacao.html"> Mitigação </a> </li>
+			
+			<li> <a href="inovacao.html"> Inovação </a> </li>
+			
+			<li><a href="sitelinks.html">Links Úteis</a></li>
+
+        </ul>
+
+</nav>
+
+
+<div class="conteudo">
+
+  <h1>Injustiça Racial</h1>
+  
+  
+  <div class="ptempo">
+  <p class="tempo">&#x23F1; Tempo estimado de leitura: 4min e 20s</p>
+  </div>
+  
+  <hr class="meu-hr">
+
+    <p>A falta de acesso às necessidades básicas é um reflexo direto da pobreza e possui múltiplas causas, incluindo corrupção, conflitos armados, legados históricos da colonização e, mais recentemente, os impactos das mudanças climáticas. Esses fatores provocam escassez de recursos essenciais, violam direitos humanos e aumentam a vulnerabilidade da população, gerando tensões locais e transnacionais. Eventos climáticos extremos, como enchentes, secas e tempestades intensas, ampliam ainda mais essa escassez, pressionando espaços habitáveis e aprofundando desigualdades sociais.</p>
+	<p>No Brasil, a desigualdade social tem raízes históricas profundas. Desde a colonização portuguesa, processos de violência e exclusão marcaram a formação do país, incluindo o genocídio dos povos indígenas e a marginalização de comunidades tradicionais. Posteriormente, o tráfico de pessoas africanas escravizadas consolidou uma estrutura social baseada na exploração, e mesmo após a abolição da escravatura, a população negra continuou sem acesso a políticas de inclusão ou reparação. Muitas dessas pessoas foram empurradas para as periferias urbanas, vivendo em condições precárias e com acesso limitado a serviços públicos, infraestrutura básica e oportunidades econômicas.</p>
+	<p>A miscigenação brasileira contribuiu para a diversidade cultural do país, mas ocorreu dentro de uma lógica de dominação e exclusão, impedindo a consolidação de uma sociedade baseada em igualdade e justiça. Estruturas como o monopólio da terra, o poder patrimonialista e o controle político concentrado nas elites perpetuaram desigualdades que persistem até hoje, refletindo-se na organização urbana, na economia e no acesso a direitos básicos. A pós-redemocratização trouxe avanços ao incorporar direitos humanos nas políticas públicas e ao tentar reduzir desigualdades históricas, mas os desafios ainda são significativos.</p>
+	<p>Dentro desse cenário, surge o conceito de racismo ambiental, que evidencia como desigualdades raciais influenciam a exposição a riscos ambientais. Comunidades negras ou racializadas vivem em regiões urbanas desfavorecidas, com saneamento precário, pouca ou nenhuma área verde e maior exposição a poluentes tóxicos. Esses fatores aumentam a vulnerabilidade à saúde e reduzem a qualidade de vida, ao mesmo tempo em que essas populações têm pouca participação nas decisões que afetam seu ambiente. O racismo ambiental demonstra, assim, como desigualdade social, raça e meio ambiente estão interligados, criando um ciclo de exclusão e vulnerabilidade.</p>
+	<p>Em resumo, pobreza, desigualdade histórica e racismo ambiental se combinam para estruturar um cenário em que as populações mais vulneráveis são desproporcionalmente afetadas por crises sociais, ambientais e de saúde. Compreender essas interações é essencial para desenvolver políticas públicas que promovam inclusão social, justiça ambiental e acesso equitativo a recursos e serviços, garantindo condições dignas de vida para todos, independentemente da cor da pele, da renda ou da posição social.</p>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+	    <div class="footer-section">
+		    <h3>Sobre:</h3>
+			<p>Este site é dedicado para todos os que se importam com causas sociais e com a futura geração.</p>
+		</div>
+	</div>
+	
+	<div class="footer-section">
+	    <h3>Redes Sociais</h3>
+		<img src="instagram.png" height="2%" width="2%"><a href="https://www.instagram.com/ecoequidade/" target="_blank">Instagram</a>
+		<img src="twitter.png" height="2%" width="2%"><a href="https://x.com/ecoequidad15316" target="_blank">Twitter</a>
+	</div>
+	
+	<h3>Entre em contato:</h3>
+	<p class="footer-copy">ecoequidade@gmail.com</p>
+	<p class="footer-copy">&copy; 2025 EcoEquidade.</p>
+</footer>
+
+	</body> 
+	
+	</html>
